@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Batch2 Lecture 67 Function in Detail</title>
+</head>
+
+<body>
+
+
+
+    <script>
+        // I can write the Js code before the closing of body tag
+
+
+        /// Funtions
+        /*
+
+            1 function defination
+            function functionName
+            It should be start camelCase
+
+            2 function calling
+        */
+        let b = document.querySelector('body');
+
+
+        function myFunctionA() { // Valid nameConventions
+            console.log(b);  // statements
+            let h1 = document.createElement('h1');
+            h1.append('Bishnoi’s arrested ‘aide’ feuded with SP MLA, wanted to enter politics: Police sources')
+
+            b.append(h1);
+
+        }
+
+        // function calling
+        myFunctionA();
+    </script>
+
+    <script>
+        //fumction defination
+        function myFunctionB() {
+            let h2 = document.createElement('h1');
+            h2.append('4-year-old, food delivery exec among four dead after downpour in Kanpur, Kannauj');
+            b.append(h2)
+        }
+
+        //function calling
+
+        myFunctionB()
+    </script>
+
+
+    <script>
+        //function defination
+        function myFunctionC(n3){
+
+            // function with return value
+            return 'PSSSB Punjab Patwari result 2023 announced on sssb.punjab.gov.in, direct link'
+
+        }
+
+       let n3= myFunctionC();
+       let h3 = document.createElement('h1');
+       h3.append(n3);
+       b.append(h3)
+
+    </script>
+
+    <script>
+        // function defiantion
+        function myFunctionD(n4 ='EXPLAINER: Greece gears up for election on Sunday. Here\'s how the system works'){
+
+            // function with default arrrguments
+
+            let h4 = document.createElement('h1');
+            h4.append(n4);
+            b.append(h4);
+
+        }
+
+        // function calling
+        myFunctionD()
+    </script>
+
+
+
+</body>
+
+</html>
